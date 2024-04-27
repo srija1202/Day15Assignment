@@ -11,3 +11,7 @@ button {
 .result {
     margin-bottom: 2px;
 }
+
+#dob{
+    width:45%;
+}

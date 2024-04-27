@@ -2,12 +2,13 @@
 const inputdate = document.createElement("input");
 inputdate.setAttribute("type","date");
 inputdate.setAttribute("id","dob");
+inputdate.className = 'dob'
 
 // Create button element
 const button = document.createElement("button");
 button.setAttribute("type","button");
 button.className = "btn btn-primary";
-button.innerHTML = "Fetch Data";
+button.innerHTML = "Click Me";
 button.addEventListener("click", get_date);
 
 // Create div element
